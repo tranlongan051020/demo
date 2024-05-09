@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  postgredb:
+    image: "postgres:latest"
+    environment:
+      POSTGRES_USER: cpa1user
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: cpa1db
+    ports:
+      - 5432:5432
+    networks:
+      - cpa-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "cpa1user", "-d", "cpa1db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - postgre_data:/var/lib/postgresql/data
+
+volumes:
+  postgre_data:
+
+networks:
+  cpa-net:

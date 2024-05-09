@@ -1,0 +1,36 @@
+ErrFileDurasionIsOver: Video length exceeds the limit. Current video duration = [{{.Duration}}] seconds. Limit = [{{.MaxDuration}}] seconds
+ErrYoutubeURLIsInvalid: Youtube URL is invalid
+ErrCannotDownloadYoutubeFile: Cannot download file from youtube URL
+ErrValidateRequired: ErrValidateRequired
+ErrValidateLen: ErrValidateLen
+ErrValidateMin: ErrValidateMin
+ErrValidateMax: ErrValidateMax
+ErrValidateEq: ErrValidateEq
+ErrValidateNe: ErrValidateNe
+ErrValidateLt: ErrValidateLt
+ErrValidateLte: ErrValidateLte
+ErrValidateGt: ErrValidateGt
+ErrValidateGte: ErrValidateGte
+ErrValidateEqField: ErrValidateEqField
+ErrValidateEqCsField: ErrValidateEqCsField
+ErrValidateNecSField: ErrValidateNecSField
+ErrValidateGtCsField: ErrValidateGtCsField
+ErrValidateGteCsField: ErrValidateGteCsField
+ErrValidateLtCsField: ErrValidateLtCsField
+ErrValidateLteCsField: ErrValidateLteCsField
+ErrValidateNeField: ErrValidateNeField
+ErrValidateGteField: ErrValidateGteField
+ErrValidateGtField: ErrValidateGtField
+ErrValidateLteField: ErrValidateLteField
+ErrValidateLtField: ErrValidateLtField
+ErrValidateAlpha: ErrValidateAlpha
+ErrValidateAlphanum: ErrValidateAlphanum
+ErrValidateBoolean: ErrValidateBoolean
+ErrValidateNumeric: ErrValidateNumeric
+ErrValidateNumber: ErrValidateNumber
+ErrValidateEmail: ErrValidateEmail
+ErrValidateDateTimeLayout: ErrValidateDateTimeLayout
+ErrValidateDateTimeBefore: ErrValidateDateTimeBefore
+ErrValidateDateTimeAfter: ErrValidateDateTimeAfter
+ErrValidateOneOf: ErrValidateOneOf
+ErrUnexpected: ErrUnexpected
